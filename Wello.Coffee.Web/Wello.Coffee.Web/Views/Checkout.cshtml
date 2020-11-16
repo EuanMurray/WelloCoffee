@@ -1,0 +1,12 @@
+﻿@model Wello.Coffee.Web.Models.CheckoutViewModel
+@using Wello.Coffee.Web.Models;
+@{
+    ViewData["Title"] = "Checkout";
+
+    var test1 = Model;
+    var test2 = "";
+}
+
+<div id="cart">
+    @Html.Partial("Partials/Cart.cshtml", Model.Cart)
+</div>

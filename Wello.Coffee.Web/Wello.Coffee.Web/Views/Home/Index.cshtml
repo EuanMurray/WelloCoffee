@@ -1,7 +1,7 @@
 ﻿@model Wello.Coffee.Web.Models.VendingMachineViewModel
 @using Wello.Coffee.Web.Models;
 @{
-    ViewData["Title"] = "Coffee-Cart";
+    ViewData["Title"] = "Cart";
 }
 
 <div class="text-center">
@@ -40,8 +40,20 @@
         <input type="hidden" name="drinkType" value="@Model.Drink.Name" />
     }
 </div>
-<div id="cart">
-    @Html.Partial("../Partials/Cart.cshtml", Model.Cart)
-</div>
+@if (Model.Cart != null)
+{
+    <div id="cart">
+        @Html.Partial("../Partials/Cart.cshtml", Model.Cart)
+    </div>
+    <div>
+        <input id="checkoutButton" type="button" value="Proceed to Checkout" />
+    </div>
+}
 
-@*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>*@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script>
+    $('#checkoutButton').click(function () {
+        document.location = '@Url.Action("Index", "Checkout", new CheckoutViewModel { Cart = Model.Cart })'
+    });
+</script>
