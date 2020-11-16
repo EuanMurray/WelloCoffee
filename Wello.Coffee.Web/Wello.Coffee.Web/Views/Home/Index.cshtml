@@ -1,8 +1,47 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model Wello.Coffee.Web.Models.VendingMachineViewModel
+@using Wello.Coffee.Web.Models;
+@{
+    ViewData["Title"] = "Coffee-Cart";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Wello's Drinks</h1>
+
+    <h3>Please select your @Model.Drink.Name order</h3>
+    <br />
+    @using (Html.BeginForm("AddToCart", "Home", FormMethod.Post, new AddToCartModel()))
+    {
+        <div>
+            <p>Please select the drink size</p>
+            @foreach (var size in Model.Drink.Sizes)
+            {
+                <input required type="radio" id="size:@size.Code" name="size" value="@size.Code">
+                <label for="size:@size.Code">@size.Name ($@size.Price)</label><br>
+            }
+        </div>
+        <div>
+            <p>Please select your extras</p>
+            <div>
+                <label for="cream">Cream Quantity (between 0 and @Model.Drink.Cream.MaxQuantity):</label>
+                <input type="number" id="cream" name="creamQuantity" min="0" max="@Model.Drink.Cream.MaxQuantity">
+            </div>
+            <div>
+                <label for="sugar">Sugar Quantity (between 0 and @Model.Drink.Sugar.MaxQuantity):</label>
+                <input type="number" id="sugar" name="sugarQuantity" min="0" max="@Model.Drink.Sugar.MaxQuantity">
+            </div>
+        </div>
+        <div>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="0" value="1">
+        </div>
+        <div>
+            <input type="submit" id="submitButton" name="submitButton" value="Add to Cart">
+        </div>
+        <input type="hidden" name="drinkType" value="@Model.Drink.Name" />
+    }
 </div>
+<div id="cart">
+    @Html.Partial("../Partials/Cart.cshtml", Model.Cart)
+</div>
+
+@*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>*@

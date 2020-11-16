@@ -1,0 +1,43 @@
+﻿@model Wello.Coffee.Web.Models.CartViewModel
+@using Wello.Coffee.Web.Helpers;
+
+<div>
+    @if (Model != null && Model.CartItems != null && Model.CartItems.Any())
+    {
+        <table>
+            <tr>
+                <th>Drink Type</th>
+                <th>Size</th>
+                <th>Cream Quantity</th>
+                <th>Sugar Quantity</th>
+                <th>SubTotal</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            @foreach (var cartItem in Model.CartItems)
+            {
+                var value = (DrinkSizeEnums)Enum.Parse(typeof(DrinkSizeEnums), cartItem.DrinkDetails.SizeCode);
+                var size = value.ToDescription();
+
+                <tr>
+                    <td>
+                        @cartItem.DrinkDetails.DrinkType
+                    </td>
+                    <td>@size</td>
+                    <td>@cartItem.DrinkDetails.CreamQuantity</td>
+                    <td>@cartItem.DrinkDetails.SugarQuantity</td>
+                    <td>@cartItem.SubTotal</td>
+                    <td>@cartItem.Quantity</td>
+                    <td>@cartItem.Total</td>
+                </tr>
+            }
+            <tr>
+                <td colspan="6">Grand Total</td>
+                <td>@Model.TotalCost</td>
+            </tr>
+        </table>
+        <div>
+
+        </div>
+    }
+</div>

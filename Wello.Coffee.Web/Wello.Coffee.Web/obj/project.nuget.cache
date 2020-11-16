@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qWhQni2CmCnZUwAH17mDRoiFBQECJWQrbs0srjXmnD4g4yDo12fivQHUl0ok3INwC0PUuk/FwF+zgIt7aZhoTw==",
+  "dgSpecHash": "+YPckvbkGHkCP/Pmo4x52zbLob7LC9hu8vYEB2ZohyUXyh5kr+XrEA1IN0YQvUln/qiq/JnZu0DgeBbh3k/V7g==",
   "success": true,
   "projectFilePath": "C:\\git-repos\\Personal\\WelloCoffee\\Wello.Coffee.Web\\Wello.Coffee.Web\\Wello.Coffee.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\euan.murray\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

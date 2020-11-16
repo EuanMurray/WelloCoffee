@@ -1,0 +1,32 @@
+{
+	"drink": {
+		"name": "Coffee",
+		"sizes": [
+			{
+				"code": "S",
+				"name": "Small",
+				"price": 1.59
+			},
+			{
+				"code": "M",
+				"name": "Medium",
+				"price": 1.79
+			},
+			{
+				"code": "L",
+				"name": "Large",
+				"price": 1.99
+			}
+		],
+		"cream": {
+			"code": "C",
+			"price": 0.5,
+			"maxQuantity": 3
+		},
+		"sugar": {
+			"code": "S",
+			"price": 0.25,
+			"maxQuantity": 3
+		}
+	}
+}

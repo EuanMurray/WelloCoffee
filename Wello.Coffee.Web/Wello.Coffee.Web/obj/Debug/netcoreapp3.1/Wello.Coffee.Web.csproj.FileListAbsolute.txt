@@ -1,5 +1,7 @@
+C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\web.config
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\App_Data\VendingMachineItems.json
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\Wello.Coffee.Web.exe
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\Wello.Coffee.Web.deps.json
@@ -9,6 +11,7 @@ C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\ne
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\Wello.Coffee.Web.pdb
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\Wello.Coffee.Web.Views.dll
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\Wello.Coffee.Web.Views.pdb
+C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.AssemblyInfoInputs.cache
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.AssemblyInfo.cs
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.csproj.CoreCompileInputs.cache
@@ -18,17 +21,17 @@ C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\ne
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.TagHelpers.input.cache
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.TagHelpers.output.cache
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.RazorCoreGenerate.cache
+C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.RazorTargetAssemblyInfo.cache
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.RazorTargetAssemblyInfo.cs
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.Views.pdb
+C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.csproj.CopyComplete
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\staticwebassets\Wello.Coffee.Web.StaticWebAssets.Manifest.cache
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\staticwebassets\Wello.Coffee.Web.StaticWebAssets.xml
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.dll
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.pdb
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.genruntimeconfig.cache
-C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.csproj.CopyComplete
-C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\bin\Debug\netcoreapp3.1\web.config
+C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Razor\Views\Partials\Cart.cshtml.g.cs
 C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Wello.Coffee.Web.csprojAssemblyReference.cache
-C:\git-repos\Personal\WelloCoffee\Wello.Coffee.Web\Wello.Coffee.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs
